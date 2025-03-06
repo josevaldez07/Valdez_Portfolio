@@ -12,15 +12,15 @@ body {
   margin-top:-1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
-  height: 5mm;
+  height: 3mm;
  }
 
 .topmenu {
   color: lightgray;
-  margin: 10px;
-  padding: 20px;
+  margin: 15px;
+  padding: 30px;
   font-size: 20px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .topmenu:hover {
@@ -31,7 +31,7 @@ body {
 
 .topdiv {
   float: right;
-  padding-right: 1cm;
+  padding-right:2cm;
 }
 
 .profile_name {
@@ -41,19 +41,6 @@ body {
   font-size: 25px;
 }
 
-.profile_name .contact_info {
-  font-size: 15px;
-  font-style: italic;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-
-.contact_info img {
-  width:25px;
-  margin-right: 10px;
-  float:left;
-}
 
 /* Titles */
 
@@ -97,19 +84,24 @@ h2 {
   font-size: 65px;
   margin-top: 90px;
   color: black;
+  margin-right: 5cm;
+  margin-left: 5cm;
 }
 
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
+  margin-right: 2cm;
+  margin-left: 2cm;
 }
 
 .profile_image {
-  width: 350px;
+  width: 300px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  margin-left: 3cm;
 }
 
 /* Skills */
@@ -187,6 +179,39 @@ h2 {
   margin-left: 30px;
 }
 
+/* Certificates */
+
+.certs-container {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.certs-container hr {
+  border: 1px solid lightgray;
+  width: 75%;
+  margin-left: 5cm;
+}
+
+.certs-card {
+  margin: 0 15px 15px 30px;
+  padding-bottom: 5px;
+}
+
+.certs-card h3 {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.certs-card h4 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.certs-card li {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
 /* Recommendations */
 
 .all_recommendations {
@@ -218,6 +243,7 @@ h2 {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
+
 
 /* Scroll to Top Button */
 
